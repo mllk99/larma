@@ -10,4 +10,5 @@ model <- lm(cars$speed ~ cars$dist)
 message("resultater")
 print(model)
 
+# Vi gemmer
 save(model, file = "model.rda")
