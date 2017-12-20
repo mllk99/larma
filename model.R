@@ -12,3 +12,12 @@ print(model)
 
 # Vi gemmer
 save(model, file = "model.rda")
+
+
+what_a_function <- function(){
+
+return(1)
+
+}
+
+
