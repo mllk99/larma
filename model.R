@@ -29,4 +29,4 @@ return(1)
 
 }
 
-message("nu er hotfix et rettet og vi prøver igen")
+message("nu er hotfix et rettet og vi prøver igen igen")
