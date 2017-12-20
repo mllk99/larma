@@ -15,3 +15,7 @@ save(model, file = "model.rda")
 
 
 message("hej hej")
+ what_a_function <- function(){
+
+return(1)
+
