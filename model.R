@@ -13,7 +13,7 @@ print(model)
 # Vi gemmer
 save(model, file = "model.rda")
 
-
+#ggg
 
 
 message("hej hej")
