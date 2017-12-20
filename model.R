@@ -28,3 +28,5 @@ return(1)
 
 
 }
+
+message("nu er hotfix et rettet")
