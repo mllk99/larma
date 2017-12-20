@@ -33,7 +33,7 @@ node ('R&&manja'){
     sh 'ls -la'
     
     sh 'docker container run --rm -i --name  r-project -v "$PWD":/usr/src/r-base -w /usr/src/r-base r-base Rscript -e "print(quote(larma_model))"'
-    sh 'docker container run --rm -i --name  r-project -v "$PWD":/usr/src/r-base -w /usr/src/r-base -v /home/ubuntu/larma/:/usr/src/r-base:rw r-base Rscript -e "load(\'model.rda\'); print(model); save(model, file = \'/usr/src/r-base/model.rda\')"'
+    sh 'docker container run --rm -i --name  r-project -v "$PWD":/usr/src/r-base -w /usr/src/r-base -v /home/ubuntu/larma/:/usr/src:rw r-base Rscript -e "load(\'model.rda\'); print(model); save(model, file = \'/usr/src/model.rda\')"'
     //docker container run --rm -i --name  r_project -v "$PWD":/usr/src/r-base -w /usr/src/r-base r-base Rscript -e "load('model.rda');print(model)"   
     
 }
