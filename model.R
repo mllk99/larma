@@ -12,3 +12,6 @@ print(model)
 
 # Vi gemmer
 save(model, file = "model.rda")
+
+
+message("hej hej")
